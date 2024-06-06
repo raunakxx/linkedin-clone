@@ -1,0 +1,11 @@
+.app {
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+}
+
+.app_body {
+  display: flex;
+  justify-content: flex-start; /* Ensure the sidebar is on the left */
+  width: 100%; /* Ensure the width is 100% to use the full space */
+}
